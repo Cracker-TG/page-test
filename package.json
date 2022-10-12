@@ -1,6 +1,7 @@
 {
   "name": "page-test",
   "private": true,
+  "homepage": "./dist",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --port 3333",
