@@ -17,7 +17,7 @@ function App() {
 
   const handleFetchLocalhost = async () => {
     try {
-      const response = await axios.get("http://localhost:4445/api/v1/devices");
+      const response = await axios.get("http://localhost:9876");
       setDevices(response.data);
     } catch (error) {
       console.log({ error });
